@@ -1,5 +1,5 @@
 from PIL import Image
-import glob, os
+import glob
 import numpy as np
 import tensorflow as tf
 
