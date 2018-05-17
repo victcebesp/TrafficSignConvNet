@@ -134,6 +134,8 @@ with tf.Session() as sess:
     import matplotlib.pyplot as plt
     plt.plot(valid_errors)
     plt.plot(errors)
+    figure = plt.gcf()
+    figure.savefig("./model/charts/chart.png")
     plt.show()
 
 
